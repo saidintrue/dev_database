@@ -1,0 +1,60 @@
+header
+{
+	max-width: 640px;
+	margin: 0 auto; /*centers the element*/
+	text-align: center;
+}
+
+nav
+{
+	max-width: 640px;
+	margin: 0 auto; /*centers the element*/
+	text-align: center;
+}
+
+section
+{
+	border-style: solid;
+	border-width: medium;
+	background-color: white;
+	max-width: 640px; /*max-width is good for smaller displays*/
+	margin: 0 auto; /*centers the element*/
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+div
+{
+	margin: 10px 20px;
+    padding: 5px 28px;
+}
+
+input[type=submit]
+ {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 10px 20px;
+    cursor: pointer;
+	position: relative;
+    left: 30px;
+}
+
+input[type=text] 
+{
+    margin: 10px 20px;
+    padding: 12px 28px;
+	background-color: white;
+	position: relative;
+    left: 30px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus 
+{
+	background-color: lightgreen;
+    width: 80%;
+}
