@@ -32,5 +32,8 @@ if(isset($_POST['submit']))
 	
 		$conn->close();
 	}
+	
+	//redirect to page two
+	header('Location: p_add_components.php');
 } 
 ?>

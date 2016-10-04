@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<link rel="stylesheet" type="text/css" href="dd-style-main.css">
+	<link rel="stylesheet" type="text/css" href="style-main.css">
 	<link rel="stylesheet" type="text/css" href="menu.css">
 	<title>Create New Entry</title>
 </head>
@@ -20,7 +20,7 @@
 	</nav>
 
 	<section>
-		<form method="post" action="dd_new_entry.php">
+		<form method="post" action="p_new_entry.php">
 		<div>Request ID:</div> <input type="text" name="request">
 		<br>
 		<div>Project:</div> <input type="text" name="project">
@@ -28,7 +28,7 @@
 		<br>
 		<input type="submit" name="submit" value="Create New Entry">  
 		</form>
-		<?php require 'dd_create_new_request.php';?>
+		<?php require 's_create_new_request.php';?>
 	</section>
 	
 </body>
